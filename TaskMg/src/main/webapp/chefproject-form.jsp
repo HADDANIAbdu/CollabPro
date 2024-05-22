@@ -21,6 +21,8 @@
 			<ul class="navbar-nav">
 				<li><a href="<%=request.getContextPath()%>/list"
 					class="nav-link">ChefsProjects</a></li>
+				<li><a href="<%=request.getContextPath()%>/projects"
+					class="nav-link">Projects</a></li>
 			</ul>
 		</nav>
 	</header>

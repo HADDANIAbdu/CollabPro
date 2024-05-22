@@ -18,6 +18,18 @@ public class Project {
 		this.end_date = end_date;
 		this.duration = duration;
 	}
+	public Project(int pr_id, int chef_id, String title, String description, Date start_date, Date end_date,
+			int duration) {
+		super();
+		this.pr_id = pr_id;
+		this.chef_id = chef_id;
+		this.title = title;
+		this.description = description;
+		this.start_date = start_date;
+		this.end_date = end_date;
+		this.duration = duration;
+	}
+
 	public int getPr_id() {
 		return pr_id;
 	}
